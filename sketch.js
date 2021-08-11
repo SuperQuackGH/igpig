@@ -37,7 +37,7 @@ function draw() {
     }
     if (keyDown("s")) {
       spacecraft.y += 2;
-      //spacecraft.addImage(Smoke);
+      spacecraft.addImage(spacecraftimg);
     }
     if (keyDown("a")) {
       spacecraft.x -= 2;
